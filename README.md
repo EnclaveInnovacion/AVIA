@@ -1,4 +1,4 @@
-# Chatbot de IA con LangChain y AWS
+# Asistente Virtual con Inteligencia Artificial
 
 [![Chatbot - Prueba](https://img.shields.io/badge/Enclave_Formación-Chatbot-white?&labelColor=ff9d19)](https://t-enclave.com/pruebas-chat/)
 
