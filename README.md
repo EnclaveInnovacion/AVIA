@@ -68,12 +68,10 @@ El flujo general del chatbot es el siguiente:
 
 ```mermaid
 flowchart TD
-    A(Lex envía un evento) -->|evento| B["Lambda crea e invoca 
-    al agente utilizando LangChain"]
+    A(Lex envía un evento) -->|evento| B["Lambda crea e invoca al agente utilizando LangChain"]
     B --> C{"El agente elige
     y devuelve la respuesta"}
-    C -->|Respuesta directa| D["Lambda da formato a la respuesta 
-    y la envía de vuelta a Lex"]
+    C -->|Respuesta directa| D["Lambda da formato a la respuesta y la envía de vuelta a Lex"]
     C -->|Respuesta de base de conocimiento| D
     C -->|Respuesta de Wikipedia| D
 
